@@ -124,6 +124,8 @@ planner_configs:
     type: geometric::TrajOpt
 
 panda_arm:
+  default_planner_config: RRTConnectkConfigDefault
+  enforce_joint_model_state_space: false
   planner_configs:
     - SBLkConfigDefault
     - ESTkConfigDefault
